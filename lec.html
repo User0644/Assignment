@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/theme.min.css" rel="stylesheet">
+	   
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+<style>
+* {
+  box-sizing: border-box;
+}
+.avatar{
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+    
+    }
+    .nav{
+        
+    }
+.menu {
+  float: left;
+  width: 15%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 2px solid #f1f1f1;
+}
+.main2 {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.vr {
+  border: 1px solid #CECECE;
+  float: left; 
+  height: 525px;
+  margin-top: 5px;
+  margin-left: 4px; 
+}
+.vr2 {
+  border: 1px solid #CECECE;
+  float: left; 
+  height: 525px;
+  margin-top: 5px;
+
+}
+.right{
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-left: 10px;
+    }
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<nav class="navbar navbar-default">
+		    <div class="container">
+		     <div class="navbar-header">
+                 <img  class="avatar" alt="avatar.png" src="logo.png">
+				 <a href="#" class="navbar-brand"> JKUAT ONLINE ASSIGNMENT PORTAL </a>
+				  
+			 </div>
+                
+					 <ul class="nav navbar-nav navbar-right">
+				     <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Log Out </a></li>
+				     </ul>
+			</div>
+		 </nav>
+
+<div style="overflow:auto">
+  <div class="menu">
+  <div class="menuitem">&nbsp;<span class="glyphicon glyphicon-home" style="color:skyblue"></span>&nbsp;<a href="../LogInHome/mainHome.html"> Home</a></div>
+  <div class="menuitem">&nbsp;<span class="glyphicon glyphicon-list" style="color:skyblue"></span>&nbsp;<a href="../viewA/vAss.html"> Assignments</a></div>
+  <div class="menuitem">&nbsp;<span class="glyphicon glyphicon-cloud-upload" style="font-size:15px;color:skyblue"></span>&nbsp;<a href="../SubmitA/sAss.html"> Submit</a></div>
+  <div class="menuitem">&nbsp;<span class="glyphicon glyphicon-user" style="font-size:15px;color:skyblue"></span>&nbsp;<a href="lec.html"> Lecturers</a></div>
+  <div class="menuitem">&nbsp;<span class="glyphicon glyphicon-book" style="font-size:15px;color:skyblue"></span>&nbsp;<a href="#"> Notes</a></div>
+      
+  </div>
+    
+  <div class="main">
+  <div class="vr"></div>
+      <div class="main2">
+          <p style="margin-top: 10px;">Lecturers:</p>
+
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Unit</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark(vw Btn)(D Btn)</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob(vw Btn)(D Btn)</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry(vw Btn)(D Btn)</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+          
+      </div>
+   <div class="vr2"></div>
+
+ <div class="right">
+    
+  </div>
+  </div>
+ </div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Copyright 2018</div>
+
+</body>
+</html>
